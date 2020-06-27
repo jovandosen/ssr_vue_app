@@ -11,7 +11,14 @@ server.get('*', (req, res) => {
         },
         template: `<div>The visited URL is: {{ url }}</div>`
     })
-    renderer.renderToString(app, (err, html) => {
+    const context = {
+        title: 'Vue Ssr Application',
+        meta: `
+            <meta name="author" content="Jovan Dosen">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        `
+    }
+    renderer.renderToString(app, context, (err, html) => {
         if(err){
             res.status(500).end('Internal Server Error')
             return
