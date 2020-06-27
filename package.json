@@ -16,5 +16,9 @@
     "ssr"
   ],
   "author": "jovan dosen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-server-renderer": "^2.6.11"
+  }
 }
