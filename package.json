@@ -1,0 +1,20 @@
+{
+  "name": "ssr_vue_app",
+  "version": "1.0.0",
+  "description": "Server Side Rendering Vue App",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssr_vue_app"
+  },
+  "keywords": [
+    "vue",
+    "js",
+    "ssr"
+  ],
+  "author": "jovan dosen",
+  "license": "ISC"
+}
